@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos da Loja</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1 class="text-center h1">Infos de cada país</h1>
+
+    <form class="space">
+      <label for="id-pais">Selecione o país</label>
+      <select id="id-pais" name="pais">
+        <option selected disabled>Selecione</option>
+        <option value="australia">Austrália</option>
+        <option value="brazil">Brasil</option>
+        <option value="United States of America">Estados Unidos</option>
+        <option value="mongolia">Mongólia</option>
+        <option value="afghanistan">Afeganistão</option>
+        <option value="united kingdom">Reino Unido</option>
+        <option value="south africa">África do Sul</option>
+        <option value="china">China</option>
+        <option value="canada">Canada</option>
+        <option value="india">Índia</option>
+        <option value="argentina">Argentina</option>
+      </select>
+      <button type="submit">Consultar</button>
+    </form>
+  </header>
+  <main class="space">
+    <p>Nome: </p><span id="nome">Sem conteúdo</span>
+    <p>Sigla: </p><span id="sigla">Sem conteúdo</span>
+    <p>Capital: </p><span id="capital">Sem conteúdo</span>
+    <p>Região: </p><span id="regiao">Sem conteúdo</span>
+    <p>DDI: </p><span id="ddi">Sem conteúdo</span>
+  </main>
+
+  <script src="js/ajax.js"></script>
+</body>
+</html>
